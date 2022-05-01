@@ -71,3 +71,8 @@ span:hover {
   color: #7BC6CC;
   cursor: pointer;
 }
+
+.loading {
+  font-size: 30px;
+  margin: 100px;
+}

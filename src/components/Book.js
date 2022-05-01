@@ -65,11 +65,11 @@ const Book = () => {
         <div className="book">
 
             <button className="button left" onClick={()=> changePage('left')} />
-            {bookContentExists &&
+            {bookContentExists ?
             <>
                 <Page page={pageNumber.left} pages={bookContent.data.book.pages}/>
                 <Page page={pageNumber.right} pages={bookContent.data.book.pages}/>
-            </>
+            </> : <p className="loading">Loading...</p>
             }
             <button className="button right" onClick={()=> changePage('right')} />
 

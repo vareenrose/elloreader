@@ -3,11 +3,10 @@ import Modal from "./Modal"
 
 const Text = ({ token, content }) => {
 
-    // const [start, end] = token.position
+    // state variable managing modal visibility
     const [showModal, setShowModal] = useState(false)
 
-    console.log(content.slice(token.position[0], token.position[1]+1))
-
+    // Extract words from content string that correspond to tokens using the position array
 
     return (
         <div className="inlinetext">

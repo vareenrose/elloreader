@@ -2,10 +2,6 @@ import Text from "./Text"
 
 const Page = ({ page, pages }) => {
 
-  // console.log(pages[page])
-
-
-
   return (
     <div className='page'>
       {pages[page].tokens.length>0 ?

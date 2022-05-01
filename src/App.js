@@ -1,4 +1,3 @@
-import './App.css';
 import Book from '../src/components/Book'
 
 function App() {
